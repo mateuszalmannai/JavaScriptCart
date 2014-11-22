@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>JS Grocer</title>
+    <link rel="stylesheet" type="text/css" href="JSGrocerMain.css" />
+    <script src="cart.js"></script>
+    <script src="grocer.js"></script>
+    
+</head>
+
+<body>
+    <h1>JS Grocer</h1>
+    <div id="products">
+        <h2>Dairy</h2>
+        <div class="product">
+            <div class="prodName">Milk</div>
+            <img src="images/dairy_milk.jpg" class="img"/>
+            <span class="prodDesc">Direct from Vermont where the cows are happiest.</span>
+            <span class="price">$1.99</span>
+            <button class="btn" id="milkButton">Add to Cart</button>
+        </div>
+        <div class="product">
+            <div class="prodName">Swiss Cheese</div>
+            <img src="images/dairy_swiss.jpg" class="img"/>
+            <span class="prodDesc">Imported from Switzerland, this cheese has all the flavor and holes you would expect from a world class cheese.</span>
+            <span class="price">$4.95</span>
+            <button class="btn" id="cheeseButton">Add to Cart</button>
+        </div>
+        <div class="product">
+            <div class="prodName">Yogurt</div>
+            <img src="images/dairy_yogurt.jpg" class="img"/>
+            <span class="prodDesc">Berry Mix flavor.</span>
+            <span class="price">$1.19</span>
+            <button class="btn" id="yogurtButton">Add to Cart</button>
+        </div>
+    </div>
+
+    <div id="cart">
+        <h2>Cart</h2>
+        <div id="numItems">You have 0 items in your cart</div>
+        <div id="items"></div>
+
+    </div>
+    
+   
+    
+</body>
+</html>
